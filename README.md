@@ -74,3 +74,9 @@ pnpm install --save-dev typescript-coverage chalk glob
 - No type inference is taken into account.
 - If the file is a mixture of JS and TS code but has a `.ts` extension, all the lines will be counted as TS.
 - We don't ignore comments. Taking different comments into account (inline, multiline) would further complicate it.
+
+## Our story
+
+At Prose, we've been migrating two projects to Typescript.
+We needed the simplest way to track our progress, so we created `typescript-coverage` — a minimalistic tool focused on this sole goal.
+Instead of copying and pasting it into every project, we decided to make it an open-source package for anyone facing the same challenge 💚
