@@ -31,7 +31,7 @@ describe('E2E Test on src code', () => {
       expect(stdout).toContain('Including files from: src/**/*.{ts,tsx,js,jsx}');
       expect(stdout).toContain('Excluding files from: **/__tests__/**');
       expect(stdout).toContain(
-        'The state of the TypeScript migration: we are currently at 100.00%',
+        'The state of the TypeScript coverage: we are currently at 100.00%',
       );
 
       expect(stdout).toContain('Total Typescript files: 4 (.ts,.tsx)');
