@@ -32,7 +32,7 @@ try {
 
   console.log(
     chalk.green(
-      `The state of the TypeScript migration: ${chalk.underline(
+      `The state of the TypeScript coverage: ${chalk.underline(
         `we are currently at ${migratedPercentage.toFixed(2)}%`,
       )}`,
     ),
