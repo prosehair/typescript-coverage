@@ -3,14 +3,34 @@
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/es/index.js",
+  "module": "./dist/es/index.js",
   "types": "./dist/types/index.d.ts",
   "bin": {
     "typescript-coverage": "./dist/executable.js"
   },
-  "description": "",
-  "keywords": [],
+  "description": "A dead-simple criteria to track your Typescript migration",
+  "keywords": [
+    "typescript",
+    "ts",
+    "typescript-coverage",
+    "type",
+    "coverage",
+    "type-coverage",
+    "node"
+  ],
   "author": "Dmitrii Novozhilov <dmitrii.novozhilov@prosehair.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prosehair/typescript-coverage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prosehair/typescript-coverage/issues"
+  },
+  "homepage": "https://github.com/prosehair/typescript-coverage",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "e2e": "pnpm build && ./dist/executable.js",
     "build": "rm -rf dist && pnpm type:generate && rollup -c",
