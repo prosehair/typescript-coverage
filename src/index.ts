@@ -6,7 +6,7 @@ import process from 'node:process';
 import calculateValues from './calculate-values';
 import normalizeConfig from './normalize-config';
 
-const configFileName = 'type-coverage.config.json';
+const configFileName = 'typescript-coverage.config.json';
 
 try {
   const configPath = `${process.cwd()}/${configFileName}`;
