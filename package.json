@@ -32,9 +32,9 @@
     "dist"
   ],
   "scripts": {
-    "e2e": "pnpm build && ./dist/executable.js",
+    "prepublishOnly": "pnpm build",
+    "e2e": "pnpm build && chmod +x ./dist/executable.js && ./dist/executable.js",
     "build": "rm -rf dist && pnpm type:generate && rollup -c",
-    "postbuild": "chmod +x ./dist/executable.js",
     "type:generate": "tsc --project tsconfig.declarations.json",
     "type:check": "tsc --noEmit",
     "test": "jest",
