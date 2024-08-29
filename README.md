@@ -46,7 +46,7 @@ pnpm install --save-dev typescript-coverage chalk glob
 }
 ```
 
-2. Create a `type-coverage.config.json` file in the root of your project to customize the coverage calculation (optional).
+2. Create a `typescript-coverage.config.json` file in the root of your project to customize the coverage calculation (optional).
    When no config was found, the following defaults will be used:
 
 ```json5

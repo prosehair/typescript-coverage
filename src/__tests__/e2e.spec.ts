@@ -26,7 +26,7 @@ describe('E2E Test on src code', () => {
       const stderr = stripFormatting(rawStderr);
 
       expect(stderr).toContain('created dist/es, dist/executable.js');
-      expect(stderr).toContain(`Couldn't find type-coverage.config.json file, using defaults`);
+      expect(stderr).toContain(`Couldn't find typescript-coverage.config.json file, using defaults`);
 
       expect(stdout).toContain('Including files from: src/**/*.{ts,tsx,js,jsx}');
       expect(stdout).toContain('Excluding files from: **/__tests__/**');
