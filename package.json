@@ -39,7 +39,8 @@
     "type:check": "tsc --noEmit",
     "test": "jest",
     "test:coverage": "pnpm test -- --collectCoverage",
-    "test:watch": "pnpm test -- --watch"
+    "test:watch": "pnpm test -- --watch",
+    "release:patch": "pnpm version patch && pnpm publish && git push --follow-tags"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
