@@ -1,6 +1,6 @@
 {
   "name": "typescript-coverage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "main": "./dist/es/index.js",
   "module": "./dist/es/index.js",
