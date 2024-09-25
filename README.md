@@ -31,7 +31,7 @@ yarn add --dev typescript-coverage chalk glob
 ```
 
 ```bash
-pnpm install --save-dev typescript-coverage chalk glob
+pnpm add --save-dev typescript-coverage chalk glob
 ```
 
 ## Using in your project
